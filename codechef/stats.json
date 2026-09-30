@@ -47,17 +47,26 @@
         "tier": "1★ Beginner Level"
       },
       "SANDWICH7 - SANDWICH7": {
+        "category": "star1",
+        "date": "2026-09-30T14:55:31.976Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "CHOCCUT - CHOCCUT": {
         "difficulty": "Beginner",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Beginner",
-        "date": "2026-09-30T14:55:31.976Z"
+        "date": "2026-09-30T14:56:17.081Z"
       }
     },
-    "solved": 6,
-    "star1": 6,
+    "solved": 7,
+    "star1": 7,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
