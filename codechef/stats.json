@@ -1,0 +1,65 @@
+{
+  "codechef": {
+    "shas": {
+      "BUSSEAT - BUSSEAT": {
+        "category": "star1",
+        "date": "2026-09-16T14:45:31.990Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "ECHOECHO - ECHOECHO": {
+        "category": "star1",
+        "date": "2026-09-23T14:47:52.660Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "FIXEDPTS - FIXEDPTS": {
+        "category": "star1",
+        "date": "2026-09-16T14:47:50.701Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "LITUP - LITUP": {
+        "category": "star1",
+        "date": "2026-09-23T14:54:40.618Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "PGNATK - PGNATK": {
+        "category": "star1",
+        "date": "2026-09-23T14:50:12.956Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "SANDWICH7 - SANDWICH7": {
+        "difficulty": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level",
+        "category": "star1",
+        "displayText": "Beginner",
+        "date": "2026-09-30T14:55:31.976Z"
+      }
+    },
+    "solved": 6,
+    "star1": 6,
+    "star2_3": 0,
+    "star4_5": 0,
+    "star6_7": 0
+  }
+}
