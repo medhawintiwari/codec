@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+void solve() {
+    int n, m, k;
+	cin>>n>>m>>k;
+	vector<bool> occupied(n+1, false);
+	for (int i=0; i< m; i++) {
+	    int a;
+	    cin>>a;
+	    occupied[a] = true;
+	}
+	
+	int current_seat = 1;
+	for (int i=0; i< k; i++) {
+	    while (occupied[current_seat]) {
+	        current_seat++;
+	    }
+	    cout<<current_seat<< (i == k-1 ?" ": " ");
+	    occupied[current_seat] = true;
+	}
+	cout<<endl;
+	    
+}
+
+int main() {
+	int t;
+	cin>>t;
+	while (t--) {
+	    solve();
+	    
+	}
+
+}
