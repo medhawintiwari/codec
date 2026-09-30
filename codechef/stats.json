@@ -10,6 +10,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "CHOCCUT - CHOCCUT": {
+        "category": "star1",
+        "date": "2026-09-30T14:56:17.081Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "ECHOECHO - ECHOECHO": {
         "category": "star1",
         "date": "2026-09-23T14:47:52.660Z",
@@ -55,18 +64,18 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
-      "CHOCCUT - CHOCCUT": {
+      "SEATING7 - SEATING7": {
         "difficulty": "Beginner",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Beginner",
-        "date": "2026-09-30T14:56:17.081Z"
+        "date": "2026-09-30T14:58:02.256Z"
       }
     },
-    "solved": 7,
-    "star1": 7,
+    "solved": 8,
+    "star1": 8,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
