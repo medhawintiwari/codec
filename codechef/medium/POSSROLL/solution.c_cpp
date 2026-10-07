@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int x, k, y;
+	cin>>x>>k>>y;
+	for (int i=1; i<=x; i++) {
+	    if (k*i == y) {
+	        cout <<"YES"<<endl;
+	        return 0;
+	    }
+	    else {
+	    }
+	}
+	cout<< "NO" <<endl;
+	return 0;
+}
