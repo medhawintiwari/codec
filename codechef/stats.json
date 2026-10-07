@@ -65,17 +65,26 @@
         "tier": "1★ Beginner Level"
       },
       "SEATING7 - SEATING7": {
+        "category": "star1",
+        "date": "2026-09-30T14:58:02.256Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "POSSROLL - POSSROLL": {
         "difficulty": "Beginner",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Beginner",
-        "date": "2026-09-30T14:58:02.256Z"
+        "date": "2026-10-07T15:19:33.251Z"
       }
     },
-    "solved": 8,
-    "star1": 8,
+    "solved": 9,
+    "star1": 9,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
