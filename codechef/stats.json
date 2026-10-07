@@ -55,6 +55,15 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
+      "POSSROLL - POSSROLL": {
+        "category": "star1",
+        "date": "2026-10-07T15:19:33.251Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "SANDWICH7 - SANDWICH7": {
         "category": "star1",
         "date": "2026-09-30T14:55:31.976Z",
@@ -73,18 +82,18 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
-      "POSSROLL - POSSROLL": {
+      "TYPWRL - TYPWRL": {
         "difficulty": "Beginner",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Beginner",
-        "date": "2026-10-07T15:19:33.251Z"
+        "date": "2026-10-07T15:32:02.129Z"
       }
     },
-    "solved": 9,
-    "star1": 9,
+    "solved": 10,
+    "star1": 10,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
