@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int t;
+    cin >> t;
+    while (t--) {
+        int g, b;
+        cin >> g >> b;
+        // The minimum number of boy students left out is simply the total boys minus the total girls
+        cout << (b - g) << "\n";
+    }
+    
+    return 0;
+}
