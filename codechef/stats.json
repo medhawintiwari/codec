@@ -1,6 +1,15 @@
 {
   "codechef": {
     "shas": {
+      "BETWEEN - BETWEEN": {
+        "category": "star1",
+        "date": "2026-10-21T15:59:49.028Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
       "BUSSEAT - BUSSEAT": {
         "category": "star1",
         "date": "2026-09-16T14:45:31.990Z",
@@ -100,18 +109,18 @@
         "stars": "1★",
         "tier": "1★ Beginner Level"
       },
-      "BETWEEN - BETWEEN": {
+      "EXSHAKE - EXSHAKE": {
         "difficulty": "Beginner",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Beginner",
-        "date": "2026-10-21T15:59:49.028Z"
+        "date": "2026-10-21T16:00:57.734Z"
       }
     },
-    "solved": 12,
-    "star1": 12,
+    "solved": 13,
+    "star1": 13,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
