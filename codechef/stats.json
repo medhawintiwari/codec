@@ -92,17 +92,26 @@
         "tier": "1★ Beginner Level"
       },
       "WRSTP - WRSTP": {
+        "category": "star1",
+        "date": "2026-10-07T15:35:58.523Z",
+        "difficulty": "Beginner",
+        "displayText": "Beginner",
+        "rating": null,
+        "stars": "1★",
+        "tier": "1★ Beginner Level"
+      },
+      "BETWEEN - BETWEEN": {
         "difficulty": "Beginner",
         "rating": null,
         "stars": "1★",
         "tier": "1★ Beginner Level",
         "category": "star1",
         "displayText": "Beginner",
-        "date": "2026-10-07T15:35:58.523Z"
+        "date": "2026-10-21T15:59:49.028Z"
       }
     },
-    "solved": 11,
-    "star1": 11,
+    "solved": 12,
+    "star1": 12,
     "star2_3": 0,
     "star4_5": 0,
     "star6_7": 0
