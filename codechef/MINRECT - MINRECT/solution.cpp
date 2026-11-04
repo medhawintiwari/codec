@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    int t;
+    cin>>t;
+    while(t--){
+        int n, m;
+        cin>> n>> m;
+        
+        int t =n, b = -1;
+        int left = m, right = -1;
+        
+        for(int i = 0; i<n; i++){
+            string s;
+            cin>>s;
+            
+            for(int j= 0; j<m; j++){
+                if(s[j] == '1'){
+                    t = min(t, i);
+                    b = max(b, i);
+                    
+                    left = min(left, j);
+                    right = max(right, j);
+                }
+            }
+        }
+        int height = b - t +1;
+        int width = right-left+1;
+        
+        cout<<height*width<<endl;
+    }
+    return 0;
+}
