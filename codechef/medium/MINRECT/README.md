@@ -75,7 +75,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T15:33:15.046Z  
+**Submitted:** 2026-11-04T15:33:32.371Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -88,14 +88,11 @@ int main() {
     while(t--){
         int n, m;
         cin>> n>> m;
-        
         int t =n, b = -1;
         int left = m, right = -1;
-        
         for(int i = 0; i<n; i++){
             string s;
             cin>>s;
-            
             for(int j= 0; j<m; j++){
                 if(s[j] == '1'){
                     t = min(t, i);
