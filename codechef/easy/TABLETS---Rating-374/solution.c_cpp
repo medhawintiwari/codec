@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int x;
+        cin >> x;
+        int distance = max(x, 300);
+        cout << distance * 10 << endl;
+    }
+    return 0;
+}
