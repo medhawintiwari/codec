@@ -62,7 +62,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T05:48:10.533Z  
+**Submitted:** 2026-11-08T05:23:27.211Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -75,10 +75,11 @@ int main() {
         int x;
         cin >> x;
         int distance = max(x, 300);
-        cout << distance * 10 << "\n";
+        cout << distance * 10 << endl;
     }
     return 0;
 }
+
 ```
 
 ---
