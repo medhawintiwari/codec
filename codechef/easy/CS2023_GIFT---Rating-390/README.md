@@ -4,87 +4,79 @@
 
 ## Problem
 
-### Spice Level
+### The Gift
 
-Each item in Chef’s menu is assigned a spice level from $1$ to $10$. Based on the spice level, the item is categorised as:
+Om has $X$ rupees. He wants to gift a laptop worth $N$ rupees to his girlfriend.
 
-- MILD: If the spice level is less than $4$.
-- MEDIUM: If the spice level is greater than equal to $4$ but less than $7$.
-- HOT: If the spice level is greater than equal to $7$.
+We know that Om is the technical secretary of IIIT-A and has access to the Gymkhana funds of IIIT-A. Currently there are $M$ rupees in the fund and Om can use the fund as much as he wants.
 
-Given that the spice level of an item is $X$, find the category it lies in.
+Find whether Om can gift his girlfriend a new laptop.
 
 ### Input Format
-- The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case consists of an integer $X$ — the spice level of the item.
+- The first and only line of input contains three space-separated integers $X$, $N$, and $M$ — the amount Om has, the price of the laptop, and the amount present in the Gymkhana fund respectively.
 ### Output Format
 
-For each test case, output on a new line, the category that the item lies in.
+For each input, output `YES` if Om can buy the laptop and `NO` otherwise.
 
-You may print each character in uppercase or lowercase. For example, `HOT`, `hot`, `Hot`, and `hOT` are all considered the same.
+You may print each character in uppercase or lowercase. For example `YES`, `Yes`, `yes`, and `yES` are all considered the same.
 
 ### Constraints
-- $1 \leq T \leq 1000$
-- $1 \leq X \leq 10$
+- $1 \leq X, N, M \leq 10^{3}$
 ### Sample 1:
 Input
 Output
 
 ```
-4
-4
-1
-6
-9
+5 10 15
 
 ```
 
 ```
-MEDIUM
-MILD
-MEDIUM
-HOT
+YES
 
 ```
 
 ### Explanation:
 
- **Test case $1$:**  The spice level is greater than $4$ but less than $7$. Thus, it is in `MEDIUM` category.
+Om uses $5$ rupees from Gymkhana fund. So, the amount he has is $5+5= 10$ rupees. He can buy the laptop with cost $10$ rupees.
 
- **Test case $2$:**  The spice level is less than $4$. Thus, it is in `MILD` category.
+### Sample 2:
+Input
+Output
 
- **Test case $3$:**  The spice level is greater than $4$ but less than $7$. Thus, it is in `MEDIUM` category.
+```
+4 50 7
+```
 
- **Test case $4$:**  The spice level is greater than $7$. Thus, it is in `HOT` category.
+```
+NO
+```
+
+### Explanation:
+
+Even if Om uses the whole Gymkhana fund, he won't be able to buy the laptop.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T09:38:08.457Z  
+**Submitted:** 2026-11-13T09:38:40.486Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int x;
-        cin >> x;
-        if (x < 4) {
-            cout << "MILD" << endl;
-        } else if (x < 7) {
-            cout << "MEDIUM" << endl;
-        } else {
-            cout << "HOT" << endl;
-        }
+    int x, n, m;
+    cin >> x >> n >> m;
+    if (x + m >= n) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
     }
     return 0;
 }
-
 ```
 
 ---
