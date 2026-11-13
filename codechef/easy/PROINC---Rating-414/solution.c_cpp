@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        double x, y;
+        cin >> x >> y;
+        double new_selling_price = x * 1.1;
+        double profit = new_selling_price - (x - y);
+        cout << fixed << setprecision(0) << profit << endl;
+    }
+    return 0;
+}
