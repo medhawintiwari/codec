@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void solve() {
+    int n, k;
+    string s;
+    cin >> n >> k >> s;
+    int min_len = 1;
+    for (int i = 1; i < n; ++i) {
+        if (s[i] != s[i - 1]) {
+            min_len++;
+        }
+    }
+    if (k>=min_len && k<=n) {
+        cout << "YES"<<endl;
+    } else {
+        cout << "NO"<<endl;
+    }
+}
+
+int main() {
+    int t;
+    if (cin >> t) {
+        while (t--) {
+            solve();
+        }
+    }
+    return 0;
+}
