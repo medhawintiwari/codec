@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve() {
+    int n;
+    cin>>n;
+    vector<int> a(n);
+    int total_sum=0;
+    for (int i=0; i<n; ++i) {
+        cin>>a[i];
+        total_sum+=a[i];
+    }
+    
+    int min_pair_sum= INT_MAX;
+    for (int i = 0; i < n - 1; ++i) {
+        min_pair_sum = min(min_pair_sum, a[i] + a[i + 1]);
+    }
+    cout<< total_sum-(min_pair_sum/2) <<endl;
+}
+
+int main() {
+	int t;
+	if (cin>>t) {
+	    while (t--) {
+	        solve();
+	    }
+	}
+	return 0;
+
+}
