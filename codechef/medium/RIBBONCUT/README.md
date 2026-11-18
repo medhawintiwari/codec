@@ -75,14 +75,24 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T16:08:05.654Z  
+**Submitted:** 2026-11-18T16:09:35.885Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+	int n;
+	if (cin>>n) {
+	    if (n%3==0) {
+	        cout<<"YES"<<endl;
+	    }
+	    else {
+	        cout<<"NO"<<endl;
+	  
+	   }
+	}
+	return 0;
 
 }
 
